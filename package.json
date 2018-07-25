@@ -4,6 +4,10 @@
     "description": "wrapping cx on all selected texts",
     "version": "0.0.1",
     "publisher": "nowpark",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hyeonjae/vscode-extension-cx-wrapper.git"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
