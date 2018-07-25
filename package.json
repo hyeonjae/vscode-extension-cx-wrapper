@@ -1,7 +1,7 @@
 {
     "name": "cx",
     "displayName": "cx",
-    "description": "",
+    "description": "wrapping cx on all selected texts",
     "version": "0.0.1",
     "publisher": "nowpark",
     "engines": {
