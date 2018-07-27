@@ -1,6 +1,6 @@
 # cx wrapper README
 
-선택한 단어에 cx()로 감쌉니다.
+Wrap selected word with `cx()`.
 
 ```
 'hello'
@@ -10,7 +10,7 @@ cx('hello')
 
 ## Features
 
-여러 단어가 선택된 경우 모두 cx()로 감쌉니다.
+Multiple selections of words are all wrapped with `cx()`.
 
 ```
 'hello', 'world'
@@ -18,7 +18,7 @@ cx('hello')
 cx('hello'), cx('world')
 ```
 
-이미 cx()로 감싸여진 단어는 cx()를 제거합니다.
+In case the word is wrapped with `cx()` already, cx wrapper removes it.
 
 ```
 'hello', cx('world')
@@ -28,15 +28,13 @@ cx('hello'), 'world'
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 0.0.1
+### 0.0.1 (2018/07/25)
 
 Initial release
 
 -----------------------------------------------------------------------------------------------------------
 
-### For more information
+## For more information
 
 * [hyeonjae/vscode-extension-cx-wrapper](https://github.com/hyeonjae/vscode-extension-cx-wrapper)
 
